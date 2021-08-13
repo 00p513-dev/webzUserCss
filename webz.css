@@ -31,6 +31,14 @@ g {
     opacity: 0%;
 }
 
+.Avatar {
+    background: inherit;
+}
+
+.Message.own {
+    --background-color: #252525;
+}
+
 .footer {
     visibility: hidden;
     position: relative;
