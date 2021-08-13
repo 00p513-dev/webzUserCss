@@ -1,0 +1,54 @@
+body, #message-input-text .form-control, #caption-input-text .form-control {
+    font-family: "Product Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+#MiddleColumn {
+    border-left: 0px solid var(--color-borders);
+    --theme-background-color: #1C1C1E!important;
+}
+
+.MiddleHeader {
+    box-shadow: 0 2px 2px #1C1C1E69;
+}
+
+.message-content.has-solid-background, .message-content.has-background, .is-album .message-content {
+    background: #252525;
+}
+
+.MessageOutgoingStatus i {
+    background: inherit;
+}
+
+.MessageOutgoingStatus i {
+    fill: #0000;
+}
+
+.message-content .svg-appendix .corner {
+    fill: #252525;
+}
+
+g {
+    opacity: 0%;
+}
+
+.footer {
+    visibility: hidden;
+    position: relative;
+}
+
+.footer:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0.5rem 0;
+    background: var(--color-chat-hover);
+    color: var(--color-text-secondary);
+    font-size: 0.8125rem;
+    text-align: center;
+    list-style: none;
+    --offset-y: calc(100% + 0.5rem);
+    --offset-x: 0;
+    width: 100%;
+    content: "Telegram WebZ Theme by Amy";
+}
